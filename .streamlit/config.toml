@@ -1,0 +1,18 @@
+[theme]
+# Menggunakan basis tema gelap (Dark Mode)
+base = "dark"
+
+# Warna Utama (Aksen Oranye Terakota sesuai logo Sadar Lemari)
+primaryColor = "#E86C38"
+
+# Latar belakang utama (Dark Charcoal/Matte Black agar nyaman di mata)
+backgroundColor = "#121417"
+
+# Latar belakang sekunder (Sidebar & Gelembung Chat/Kartu Input)
+secondaryBackgroundColor = "#1E2228"
+
+# Warna teks utama (Off-White agar tidak terlalu silau namun sangat kontras)
+textColor = "#F3F4F6"
+
+# Tipografi bersih, modern, dan kekinian
+font = "sans serif"
