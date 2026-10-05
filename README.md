@@ -12,8 +12,7 @@
 3. [Model & Arsitektur Sistem](#3-model--arsitektur-sistem)
 4. [Cara Instalasi](#4-cara-instalasi)
 5. [Cara Menjalankan Chatbot](#5-cara-menjalankan-chatbot)
-6. [Estimasi Biaya Operasional](#6-estimasi-biaya-operasional)
-7. [Evaluasi & Catatan Pengembangan](#7-evaluasi--catatan-pengembangan)
+6. [Evaluasi & Catatan Pengembangan](#7-evaluasi--catatan-pengembangan)
 
 ---
 
