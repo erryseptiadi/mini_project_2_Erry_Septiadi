@@ -123,21 +123,8 @@ Aplikasi antarmuka obrolan (*chat interface*) dibangun menggunakan **Streamlit**
 
 ---
 
-## 6. Estimasi Biaya Operasional
 
-Estimasi biaya bergantung pada skala penggunaan dan provider AI yang dipilih (contoh berikut berbasis ketersediaan model API standar seperti OpenAI gpt-4o-mini atau Google Gemini Flash):
-
-| Komponen | Deskripsi | Estimasi Biaya (Per 1.000 Kueri) |
-| :--- | :--- | :--- |
-| **Embedding Model** | *text-embedding-3-small* atau sejenis | ~ $0.0001 - $0.0005 |
-| **Vector Store Storage** | ChromaDB / FAISS (Local) | **$0.00** (Hosted locally) |
-| **LLM Inference** | *GPT-4o-mini* / *Gemini 1.5 Flash* | ~$0.15 - $0.50 (Asumsi 1k token/prompt) |
-| **Hosting Frontend** | Streamlit Community Cloud / Server Lokal | **$0.00** - $5/bulan (VPS entry level) |
-| **Total Estimasi** | **Penggunaan Skala Kecil–Menengah** | **< $5 - $10 / bulan** |
-
----
-
-## 7. Evaluasi & Catatan Pengembangan
+## 6. Evaluasi & Catatan Pengembangan
 
 ### 💡 Temuan Evaluasi
 * **Penyelarasan Knowledge Base:** Pada beberapa pengujian awal, terdapat pertanyaan umum (seperti kueri mendalam tentang *"Dampak Lingkungan Limbah Tekstil"* secara luas) yang belum terakomodasi sepenuhnya di dokumen internal, sehingga sistem menjawab secara jujur bahwa informasi detail belum tersedia.
